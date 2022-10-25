@@ -196,6 +196,7 @@ h3 {
 .skills {
   background-color: #fff;
   padding-top: 12px;
+  padding-bottom: 10px;
 }
 
 .skills-h2 {
@@ -207,6 +208,42 @@ h3 {
   background-color: rgb(0, 89, 255);
   color: #fff;
   border-radius: 30px;
+}
+
+.skills-content {
+  display: flex;
+  justify-content: center;
+  column-gap: 50px;
+  /* padding: 50px; */
+  margin: 40px 0 90px 0;
+}
+
+.ill {
+  background-color: #f6f6f6;
+  width: 342px;
+  border-radius: 60px;
+}
+
+.ill-icon {
+  margin: 50px;
+}
+
+.ps {
+  background-color: #f6f6f6;
+  width: 342px;
+  border-radius: 60px;
+}
+
+.id {
+  background-color: #f6f6f6;
+  width: 342px;
+  border-radius: 60px;
+}
+
+.xd {
+  background-color: #f6f6f6;
+  width: 342px;
+  border-radius: 60px;
 }
 
 /* portfolio */
