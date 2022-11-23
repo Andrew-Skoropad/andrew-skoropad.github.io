@@ -1,0 +1,496 @@
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+  .container {
+    max-width: 1140px;
+    padding: 0 30px;
+    margin: 0 auto;
+  }
+  /* section{
+    min-height: 100vh;
+  } */
+
+  .home {
+    min-height: 100vh;
+  }
+  .about-me {
+    min-height: 100vh;
+  }
+  .skills {
+    min-height: 100vh;
+  }
+  .portfolio {
+    min-height: 100vh;
+  }
+
+  .about-me-content {
+    column-gap: 40px;
+    /* padding: 40px; */
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  /* .container {
+    max-width: 960px;
+    padding: 0 30px;
+    margin: 0 auto;
+  } */
+  .home-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 56px;
+  }
+  .home {
+    min-height: 100vh;
+  }
+  .about-me {
+    min-height: 100vh;
+  }
+  .skills {
+    min-height: 100vh;
+  }
+  .portfolio {
+    min-height: 100vh;
+  }
+
+  .home-title {
+    max-width: 500px;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+
+  .home-content-img {
+    max-width: 406px;
+    border-radius: 40px;
+  }
+
+  .about-me-content {
+    column-gap: 40px;
+    padding: 40px;
+  }
+  .about-me-h2,
+  .skills-h2,
+  .contacts-h2 {
+    font-size: 36px;
+  }
+  .about-me-img {
+    width: 400px;
+    border-radius: 40px;
+  }
+  .ill,
+  .ps,
+  .id,
+  .xd {
+    border-radius: 40px;
+  }
+  .contacts-a {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .navlist {
+    position: absolute;
+    top: 100%;
+    right: -100%;
+    width: 50%;
+    /* height: 29vh; */
+    height: 26vh;
+    background-color: rgb(0, 89, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+  }
+  .navlist a {
+    display: block;
+    margin: 15px 0;
+    padding: 0px 20px;
+    transition: all 0.5s ease;
+  }
+
+  .navlist a:hover {
+    color: #000;
+  }
+
+  .navlist a.active {
+    color: #000;
+  }
+  .navlist .open {
+    right: 2%;
+  }
+
+  #menu-icon {
+    display: block;
+  }
+
+  .home-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 56px;
+  }
+  .home {
+    min-height: 100vh;
+  }
+  .about-me {
+    min-height: 100vh;
+  }
+  .skills {
+    min-height: 100vh;
+  }
+  .portfolio {
+    min-height: 100vh;
+  }
+
+  .home-title {
+    max-width: 500px;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+
+  .home-content-img {
+    max-width: 406px;
+    border-radius: 40px;
+  }
+
+  .about-me-content {
+    column-gap: 40px;
+    padding: 40px;
+  }
+  .about-me-h2,
+  .skills-h2,
+  .contacts-h2 {
+    font-size: 36px;
+  }
+  .about-me-img {
+    width: 400px;
+    border-radius: 40px;
+  }
+  .ill,
+  .ps,
+  .id,
+  .xd {
+    border-radius: 40px;
+  }
+  .contacts-h2 {
+    margin: 70px 0 40px 0;
+  }
+
+  .contacts-a {
+    white-space: nowrap;
+    font-size: 18px;
+    text-align: center;
+    /* max-width: 100%; */
+    margin-top: 0;
+    padding: 20px 0px;
+  }
+
+  .contacts-content {
+    display: grid;
+    /* justify-content: space-between; */
+    row-gap: 40px;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .navlist {
+    position: absolute;
+    top: 100%;
+    right: -100%;
+    width: 50%;
+    /* height: 29vh; */
+    height: 26vh;
+    background-color: rgb(0, 89, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+  }
+  .navlist a {
+    display: block;
+    margin: 15px 0;
+    padding: 0px 20px;
+    transition: all 0.5s ease;
+  }
+
+  .navlist a:hover {
+    color: #000;
+  }
+
+  .navlist a.active {
+    color: #000;
+  }
+  .navlist .open {
+    right: 2%;
+  }
+
+  #menu-icon {
+    display: block;
+  }
+  .home-content {
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding-top: 56px;
+  }
+  .home {
+    min-height: 100vh;
+  }
+  .about-me {
+    min-height: 100vh;
+  }
+  .skills {
+    min-height: 100vh;
+  }
+  .portfolio {
+    min-height: 100vh;
+  }
+
+  .home-title {
+    max-width: 500px;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+  .home-p {
+    max-width: 100%;
+  }
+
+  .home-content-img {
+    max-width: 100%;
+    border-radius: 40px;
+  }
+
+  .about-me-content {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 60px;
+    row-gap: 40px;
+    padding: 40px;
+    margin: 40px 0px 100px 0px;
+  }
+
+  .skills-content {
+    display: grid;
+    justify-content: space-between;
+    column-gap: 50px;
+    margin: 40px 0 90px 0;
+  }
+
+  .about-me-h2,
+  .skills-h2,
+  .contacts-h2 {
+    font-size: 36px;
+  }
+  .about-me-img {
+    width: 400px;
+    border-radius: 40px;
+  }
+  .ill,
+  .ps,
+  .id,
+  .xd {
+    border-radius: 40px;
+  }
+  .contacts-h2 {
+    margin: 70px 0 40px 0;
+  }
+
+  .contacts-a {
+    white-space: nowrap;
+    font-size: 18px;
+    text-align: center;
+    /* max-width: 100%; */
+    margin: 0px;
+    padding: 20px 0px;
+  }
+
+  .contacts-content {
+    display: grid;
+    justify-content: center;
+    row-gap: 40px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .navlist {
+    position: absolute;
+    top: 100%;
+    right: -100%;
+    width: 50%;
+    /* height: 29vh; */
+    height: 26vh;
+    background-color: rgb(0, 89, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+  }
+  .navlist a {
+    display: block;
+    margin: 15px 0;
+    padding: 0px 20px;
+    transition: all 0.5s ease;
+  }
+
+  .navlist a:hover {
+    color: #000;
+  }
+
+  .navlist a.active {
+    color: #000;
+  }
+  .navlist .open {
+    right: 2%;
+  }
+
+  #menu-icon {
+    display: block;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  .container {
+    max-width: 100%;
+    padding: 0 30px;
+    margin: 0 auto;
+  }
+
+  #menu-icon {
+    display: block;
+  }
+
+  .home-content {
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding-top: 56px;
+    padding-bottom: 56px;
+  }
+  .home {
+    min-height: 100vh;
+  }
+  .about-me {
+    min-height: 100vh;
+  }
+  .skills {
+    min-height: 100vh;
+  }
+  .portfolio {
+    min-height: 100vh;
+  }
+
+  .home-title {
+    max-width: 500px;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+  .home-p {
+    max-width: 100%;
+  }
+
+  .home-content-img {
+    max-width: 100%;
+    border-radius: 40px;
+  }
+  .about-me,
+  .skills,
+  .portfolio {
+    padding-top: 50px;
+  }
+
+  .about-me-content {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 60px;
+    row-gap: 40px;
+    padding: 30px;
+    margin: 40px 0px 50px 0px;
+  }
+
+  .skills-content {
+    display: grid;
+    justify-content: center;
+    gap: 30px;
+    margin: 40px 0 40px 0;
+  }
+
+  .about-me-h2,
+  .skills-h2,
+  .contacts-h2 {
+    font-size: 36px;
+  }
+  .about-me-img {
+    width: 400px;
+    border-radius: 40px;
+  }
+  .ill,
+  .ps,
+  .id,
+  .xd {
+    border-radius: 50px;
+  }
+  .portfolio-content {
+    display: grid;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 60px;
+    padding: 30px;
+    margin: 40px 0 50px 0;
+  }
+  .contacts {
+    background-color: #fff;
+    padding: 12px 0 50px;
+  }
+  .contacts-h2 {
+    margin: 38px 0 40px 0;
+  }
+
+  .contacts-a {
+    white-space: nowrap;
+    font-size: 18px;
+    text-align: center;
+    /* max-width: 100%; */
+    margin: 0px;
+    padding: 20px 0px;
+  }
+
+  .contacts-content {
+    display: grid;
+    justify-content: center;
+    row-gap: 40px;
+  }
+
+  .footer-nav {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+  }
+  .footer-list {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    color: inherit;
+  }
+}
