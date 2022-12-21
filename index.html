@@ -10,7 +10,15 @@
     />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/media.css" />
-    <script type="text/javascript" src="main.js"></script>
+    <link rel="stylesheet" href="css/mobilemenu.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.0/css/lightgallery.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
     <link
       rel="stylesheet"
       href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
@@ -39,56 +47,60 @@
     <title>Andrew Skoropadd</title>
     <meta
       name="description"
-      content="Привіт! Мене звати Андрій, я початківець графічний дизайнер з України."
+      content="Привіт! Мене звати Андрій, я графічний дизайнер з України."
     />
   </head>
   <body>
     <header class="header" id="header">
       <div class="container">
-        <nav class="nav">
-          <div class="nav-logo">
-            <a href="#top">
-              <img class="logo" src="img/favicon.png" alt="logo" />
-            </a>
-          </div>
-          <ul class="navlist">
-            <li><a href="#top" class="active">Головна</a></li>
-            <li><a href="#about-me">Про мене</a></li>
-            <li><a href="#skills">Навички</a></li>
-            <li><a href="#portfolio">Портфоліо</a></li>
-            <li><a href="#contacts">Контакти</a></li>
-          </ul>
-          <div class="bx bx-menu" id="menu-icon"></div>
-          <!-- <input type="checkbox" id="check" />
-            <label for="check" class="checkbtn">
-              <i class="fas fa-bars"></i>
-            </label> -->
-        </nav>
+        <div class="header-nav">
+          <nav class="nav">
+            <div class="nav-logo">
+              <a href="#top">
+                <img class="logo" src="img/favicon.png" alt="logo" />
+              </a>
+            </div>
+            <ul class="navlist">
+              <li class="active"><a href="#top">Головна</a></li>
+              <li><a href="#about-me">Про мене</a></li>
+              <li><a href="#skills">Навички</a></li>
+              <li><a href="#portfolio">Портфоліо</a></li>
+              <li><a href="#contacts">Контакти</a></li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </header>
     <main>
       <section class="home">
         <div class="container">
-          <div class="home-content">
-            <div class="home-content-left">
-              <h1 class="home-title">
-                Привіт! <br />
-                Я — Андрій і я роблю крутий дизайн!)
-              </h1>
-              <p class="home-p">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod
-                mollitia eligendi cumque labore quibusdam facere quisquam quidem
-                molestiae at culpfa non tempora vero, adipisci nesciunt a rem.
-                Odit, eos provident?
-              </p>
-              <a href="#about-me" class="home-btn"> Давай знайомитись! </a>
-            </div>
-            <div class="home-content-right">
-              <img
-                class="home-content-img"
-                src="/img/me.png"
-                alt="Andrew-Skoropad"
-              />
+          <div class="kkk">
+            <div class="home-content">
+              <div class="home-content-left">
+                <h1 class="home-title">
+                  Привіт! <br />
+                  Я — Андрій і я роблю крутий дизайн!)
+                </h1>
+                <!-- <p class="home-p">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod
+                  mollitia eligendi cumque labore quibusdam facere quisquam
+                  quidem molestiae at culpfa non tempora vero, adipisci nesciunt
+                  a rem. Odit, eos provident?
+                </p> -->
+                <a href="#about-me" class="home-btn"> Давай знайомитись! </a>
+              </div>
+              <div class="home-content-right">
+                <!-- <video width="320" height="240" controls>
+                  <source src="img/Comp 1.mp4" type="video/mp4" />
+                  <source src="img/Comp 1.mp4" type="video/ogg" />
+                  Your browser does not support the video tag.
+                </video> -->
+                <img
+                  class="home-content-img"
+                  src="/img/me.png"
+                  alt="Andrew-Skoropad"
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -97,7 +109,11 @@
         <div class="container">
           <h2 class="about-me-h2">Про мене</h2>
           <div class="about-me-content">
-            <img src="img/me.png" alt="Andrew-Skoropad" class="about-me-img" />
+            <img
+              src="img/andrew.png"
+              alt="Andrew-Skoropad"
+              class="about-me-img"
+            />
             <div>
               <h3>Андрій Скоропад</h3>
               <p class="about-me-p">
@@ -111,6 +127,32 @@
             </div>
           </div>
         </div>
+
+        <!-- Slider main container
+        <div class="swiper">
+          Additional required wrapper
+          <div class="swiper-wrapper">
+            Slides
+            <div class="swiper-slide">
+              <img src="img/ve.png" alt="" class="portfolio-img" />
+            </div>
+            <div class="swiper-slide">
+              <img src="img/ve.png" alt="" class="portfolio-img" />
+            </div>
+            <div class="swiper-slide">
+              <img src="img/ve.png" alt="" class="portfolio-img" />
+            </div>
+          </div>
+          If we need pagination
+          <div class="swiper-pagination"></div>
+
+          If we need navigation buttons
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+
+          If we need scrollbar
+          <div class="swiper-scrollbar"></div>
+        </div> -->
       </section>
       <section id="skills" class="skills">
         <div class="container">
@@ -138,32 +180,27 @@
       <section id="portfolio" class="portfolio">
         <div class="container">
           <h2 class="about-me-h2">Портфоліо</h2>
-          <div class="portfolio-content">
+          <div class="portfolio-content" id="portfolio-content">
             <div class="card">
-              <a
-                href="https://www.behance.net/gallery/149168531/Vegam-Brand-Identity"
-                target="_blank"
-                class="portfolio-a"
-              >
-                <img src="img/ve.png" alt="" class="portfolio-img"
+              <a href="img/ve-big (2).png" class="portfolio-a">
+                <img src="img/ve.png" alt="Vegam" class="portfolio-img"
               /></a>
             </div>
             <div class="card">
-              <a
-                href="https://www.behance.net/gallery/148523949/Mothers-borscht-Brand-identity"
-                target="_blank"
-                class="portfolio-a"
-              >
-                <img src="img/mb.png" alt="" class="portfolio-img"
+              <a href="img/mb-big.png" class="portfolio-a">
+                <img
+                  src="img/mb.png"
+                  alt="Mother's borscht"
+                  class="portfolio-img"
               /></a>
             </div>
             <div class="card">
-              <a
-                href="https://www.behance.net/gallery/148593297/5-Great-philosophers-Book-design"
-                target="_blank"
-                class="portfolio-a"
-              >
-                <img src="img/5ph.png" alt="" class="portfolio-img"
+              <a href="img/id-big.png" class="portfolio-a">
+                <img
+                  src="img/5ph.png"
+                  alt="
+                5 Great philosophers"
+                  class="portfolio-img"
               /></a>
             </div>
           </div>
@@ -194,38 +231,97 @@
     </main>
     <footer class="footer">
       <div class="container">
-        <div class="footer-bottom">
-          <nav class="footer-nav">
-            <div class="nav-logo">
-              <a href="#top">
-                <img class="logo" src="img/favicon.png" alt="logo" />
-              </a>
-            </div>
-            <ul class="footer-list">
-              <li>
-                <a
-                  href="https://www.facebook.com/andrew.skoropad/"
-                  target="_blank"
-                  class="active"
-                  >Facebook</a
-                >
-              </li>
-              <li>
-                <a
-                  href="https://www.instagram.com/skoropad_design/"
-                  target="_blank"
-                  >Instagram</a
-                >
-              </li>
-              <li>
-                <a href="https://www.behance.net/Skoropad55853d" target="_blank"
-                  >Behance</a
-                >
-              </li>
-            </ul>
-          </nav>
-        </div>
+        <nav class="footer-nav">
+          <div class="nav-logo">
+            <a href="#top">
+              <img class="logo" src="img/favicon.png" alt="logo" />
+            </a>
+          </div>
+          <ul class="footer-list">
+            <li>
+              <a
+                href="https://www.facebook.com/andrew.skoropad/"
+                target="_blank"
+                class="active"
+                >Facebook</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/skoropad_design/"
+                target="_blank"
+                >Instagram</a
+              >
+            </li>
+            <li>
+              <a href="https://www.behance.net/Skoropad55853d" target="_blank"
+                >Behance</a
+              >
+            </li>
+          </ul>
+        </nav>
       </div>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.0/lightgallery.min.js"></script>
+    <script type="text/javascript">
+      lightGallery(document.getElementById("portfolio-content"), {
+        selector: ".card a",
+      });
+    </script>
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/menuspy@latest/dist/menuspy.min.js"></script>
+    <script>
+      var elm = document.querySelector(".header .navlist");
+      var ms = new MenuSpy(elm, {
+        threshold: 30,
+      });
+    </script> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/menuspy@latest/dist/menuspy.min.js"></script>
+    <script>
+      const initMenuSpy = () => {
+        return new MenuSpy(document.querySelector(".header .navlist"), {
+          threshold: 60,
+        });
+      };
+      let menuspy = initMenuSpy();
+
+      window.addEventListener("resize", () => {
+        menuspy.destroy();
+        menuspy = initMenuSpy();
+
+        if (window.location.hash) {
+          const sectionId = window.location.hash
+            ? window.location.hash
+            : "#top";
+          document.querySelector(sectionId)?.scrollIntoView(false);
+          window.location.replace = sectionId;
+          console.log(sectionId);
+        }
+      });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper(".swiper", {
+        loop: true,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+          pauseOnMouseEnter: true,
+        },
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+    <script src="js/main.js"></script>
   </body>
 </html>
