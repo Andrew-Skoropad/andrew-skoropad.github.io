@@ -1,12 +1,5 @@
 /*** Globals */
 
-/* *,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-} */
 :root {
   --header-height: 60px;
   --mobile-menu-width: 40px;
